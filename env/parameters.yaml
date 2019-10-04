@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:jx-aps-fingerwild/adminUser:password
+  username: admin
+dashboardAuthID: vault:jx-aps-fingerwild:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:jx-aps-fingerwild:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:jx-aps-fingerwild/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:jx-aps-fingerwild/prow:hmacToken
